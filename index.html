@@ -1,121 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jianchen Hong - Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <h1>Jianchen Hong</h1>
-        <p>Phone: +1-217-974-4768 | Email: Williamhong111@outlook.com | Address: 708 S sixth str. 1304, IL, US</p>
+        <p>Phone: +1-217-974-4768 | Email: Williamhong111@outlook.com | Address: 708 s sixth str 1304, IL, US</p>
     </header>
 
     <section id="education">
         <h2>Education</h2>
         <div class="degree">
-            <h3>Bachelor of Science in Mathematics, Minoring Computer Science</h3>
+            <h3>Bachelor of Science in Mathematics</h3>
             <h4>University of Illinois Urbana-Champaign</h4>
             <p>January 2022 – May 2025 (Expected)</p>
-            <p>Major GPA: 3.73</p>
+            <p>Major: Statistics, Minoring: Computer Science, GPA: 3.73</p>
         </div>
         <div class="degree">
-            <h3>Computer Science (No Degree)</h3>
+            <h3>Computer Science</h3>
             <h4>Northeastern University</h4>
             <p>September 2020 – May 2021</p>
-            <p>Major GPA: 3.44</p>
+            <p>Overall GPA: 3.57</p>
         </div>
-        <p>Overall GPA: 3.57</p>
         <p>Core Courses: Intro to Computer Science, Calculus, Statistics and Probability, Discrete Structures, Data Structures</p>
     </section>
 
+    <!-- ... -->
+
     <section id="projects">
-        <h2>Selected Projects</h2>
-        <!-- List your projects here -->
+        <h2>Research Projects</h2>
+        
+        
+        <!-- Open flight Project -->
         <div class="project">
             <h3>Open flight Project</h3>
-            <h4>University of Illinois Urbana-Champaign</h4>
-            <p>Main tools & skills: C++</p>
-            <p>Project background: Used flight routes and airports data to create a tool to help travel enthusiasts find the best way to travel. Dijkstra's Shortest Path algorithm assists in finding the shortest routes by airport while Tarjan's strongly connected component algorithm and DFS help discover a cluster of places that can be visited.</p>
-            <ul>
-                <li>Traversal: Simulated an extreme version of "Around the World in 80 Days", where users could visit each airport without repeating it.</li>
-                <li>Shortest Path: Used Dijkstra's algorithm to find the shortest path between two airports; utilized a priority queue and followed the idea of adding and removing nodes from the priority queue based on the shortest time to traverse between the two nodes being compared.</li>
-                <li>Landmark Routes: Created routes that include common tourist destinations; selected the airport and built the route accordingly.</li>
-            </ul>
+            <h4>University of Illinois Urbana-Champaign, IL(C++)</h4>
+            <p>November 2022</p>
+            <p>Utilized flight routes and airports data to develop a tool in identifying the most efficient travel paths.</p>
+            <p>Developed a Dijkstra-based traversal algorithm to find the shortest path in O(n).</p>
+            <p>Simulated the flight from for example:LAX to MIA in shortest path.</p>
         </div>
+
+        <!-- DNA Database Project -->
         <div class="project">
-            <h3>Image and Stickers Project</h3>
-            <h4>University of Illinois Urbana-Champaign</h4>
-            <p>Main tools & skills: C++</p>
-            <p>Project background: Made a class to represent an image with stickers placed on it. The stickers placed on the base image might hang off any side of the base image while avoiding to cover other stickers. </p>
+            <h3>Identify persons with DNA database</h3>
+            <h4>University of Illinois Urbana-Champaign, IL(Java)</h4>
+            <p>May 2022</p>
             <ul>
-                <li>Located everything relative to the base Image since the base Image is on an infinite canvas  </li>
-                <li>Maintained an array of pointers to Image objects to store the stickers. Each Image in the Sticker Sheet had an index, an x-coordinate, and a y-coordinate.</li>
+                <li>Identified specific person name using the provided DNA database file.</li>
+                <li>Input (raw) data cleaning and validation using string parsing, filling missing values, XXXX.</li>
+                <li>Using shell commands such as rm, mv to do file manipulation.</li>
+                <li>Built a function that can identify the person in O(n). </li>
             </ul>
         </div>
+
+        <!-- Mountain Path Finding Project -->
         <div class="project">
-            <h3>DNA Database Project</h3>
-            <h4>University of Illinois Urbana-Champaign</h4>
-            <p>Main tools & skills: Java</p>
-            <p>Project background: Determined DNA affiliation given the name of a DNA database file and a string representation of the DNA sequence.  </p>
+            <h3>Mountain Path Findings</h3>
+            <h4>University of Illinois Urbana-Champaign, IL(C++)</h4>
+            <p>November 2022</p>
             <ul>
-                <li>Accumulated experience by iterating compound data structures and made decisions based on observed values </li>
-                <li>Enriched experience with simple string parsing and basic string manipulation techniques</li>
-                <li>Employed reading data from a file using input Files streams</li>
-                <li>Practiced with simple string parsing and basic input validation,and further developed Linux programming and shell command</li>
+                <li>Create a heatmap of mountain height using given elevation dataset.</li>
+                <!-- Other responsibilities ... -->
             </ul>
         </div>
+
+        <!-- Connect 4 Project -->
         <div class="project">
-            <h3>Connect 4 Project</h3>
-            <h4>University of Illinois Urbana-Champaign</h4>
-            <p>Main tools & skills: Java</p>
-            <p>Project background: Built the game Connect 4 and 4 automated models to win the game. </p>
+            <h3>Connect 4</h3>
+            <h4>University of Illinois Urbana-Champaign, IL</h4>
+            <p>May 2022</p>
             <ul>
-                <li>Worked on a team development project; tasked with implementing the game Connect 4 </li>
-                <li>Implemented a subset of functionality required for gameplay. </li>
+                <li>Developed the game 'Connect 4' along with four automated strategies.</li>
+                <li>How the strategy works/ how you implement it.</li>
+                <li>Executed a specific set of functions essential for gameplay.</li>
             </ul>
         </div>
-        <!-- Add more projects in a similar format -->
+
+        
+
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Proficient in JAVA</li>
-            <li>C++</li>
-            <li>R Studio</li>
-            <li>Logic</li>
-            
-        </ul>
+
     </section>
 
-    <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-            <li>Mandarin (Native)</li>
-            <li>English (Full Professional)</li>
-        </ul>
+    <section id="additional">
+        <h2>Additional Information</h2>
+        <h3>Languages:</h3>
+        <p>Mandarin (Native); English (Fully Professional)</p>
+
+        <h3>Technical Skills:</h3>
+        <p>JAVA, C++, logic, r studio</p>
     </section>
 
-    <section id="interests">
-        <h2>Interests</h2>
-        <ul>
-            <li>Organized several skate games in our school.</li>
-            <li>Joined the hip-hop club, dedicated to the singing part, and used Logic to record and mix music for my team.</li>
-            <li>Organized a show at a club for my friend.</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: Williamhong111@outlook.com</p>
-        <p>Phone: +1-217-974-4768</p>
-    </section>
-
-    <footer>
-        <a href="resume.pdf" download="resume">Download Resume as PDF</a >
-        <p>&copy; 2023 Jianchen Hong. All rights reserved.</p>
-    </footer>
 </body>
+
 </html>
